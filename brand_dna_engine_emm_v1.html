@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand DNA Strategy Engine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #F7F6F2;
+      --ink-primary: #181816;
+      --ink-muted: #5C5B57;
+      --border-hairline: #E3E1DA;
+      --accent-studio: #1F4E3D;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-canvas);
+      color: var(--ink-primary);
+      -webkit-font-smoothing: antialiased;
+    }
+    .font-editorial {
+      font-family: 'Instrument Serif', serif;
+    }
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #D1CFC7; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #A8A59C; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-30 bg-[#F7F6F2]/95 backdrop-blur border-b border-[#E3E1DA] px-5 py-3.5 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded bg-[#181816] text-[#F7F6F2] flex items-center justify-center font-editorial text-xl tracking-tight">
+        B
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h1 class="text-sm font-bold tracking-tight uppercase">Brand DNA Strategy Engine</h1>
+          <span class="text-[10px] font-mono-code uppercase px-1.5 py-0.5 rounded bg-[#E9E7E0] text-[#4A4945]">Studio OS v2.4</span>
+        </div>
+        <p class="text-xs text-[#5C5B57]">Voice Architecture, Conversion Pulse &amp; Low-Lift Campaign Builder</p>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-2.5 flex
